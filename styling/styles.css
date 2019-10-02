@@ -1,0 +1,40 @@
+/* Index page */
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.nav-item a {
+    color: #777777;
+}
+
+body {
+    background: url(styling/interlaced.png);
+    background-size: cover;
+    /* color: #777777;
+    width: 90%;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both; */
+}
+
+h2 {
+    color:#4aaaa5;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.row-bordered {
+    position: relative;
+}
+
+.row-bordered:after {
+    content:' ';
+    display: block;
+    border: .5px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+}
