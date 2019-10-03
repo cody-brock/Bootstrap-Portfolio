@@ -70,6 +70,22 @@ h2 {
 }
 
 
+/* Portfolio Page Formatting */
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 
 /* footer formatting */
 .container-1 {
