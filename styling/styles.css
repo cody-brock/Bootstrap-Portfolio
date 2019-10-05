@@ -72,18 +72,22 @@ h2 {
 /* Portfolio Page Formatting */
 .thumbnail {
     position: relative;
+    /* justify-content: center; */
 }
 
 .caption {
     position: absolute;
     top: 70%;
-    left: 0;
-    width: 100%;
+    left: 119px;
+    width: 51%;
     color: #ffffff;
     background-color: #4aaaa5;
     padding-top: 8px;
     padding-bottom: 8px;
+
 }
+
+
 
 
 /* footer formatting */
@@ -110,7 +114,7 @@ footer:before{
     background-color: #3b3b3b;
     text-decoration: none;
     color: #ffffff;
-    margin-top: -40px;
+    margin-top: -60px;
     /* overflow: hidden; */
   }
 
